@@ -1,0 +1,25 @@
+.page {
+  background-color: rgba(14, 16, 20, 1);
+  color: rgba(228, 229, 234, 1);
+  font-family: 'Inter', Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (min-width: 1346px) {
+  .page {
+    margin: 57px 10.3vw;
+  }
+}
+
+@media screen and (max-width: 1345px) {
+  .page {
+    margin: 57px 10.3vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    margin: 0 5vw;
+  }
+}

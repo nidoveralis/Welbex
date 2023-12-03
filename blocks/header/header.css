@@ -1,0 +1,136 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.header-list_item {
+  text-decoration: none;
+  letter-spacing: 0.1px;
+}
+
+.header__logo {
+  width: min-content;
+  flex-direction: column;
+  margin-left: 2px;
+}
+
+.header__text {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 10px 0;
+  letter-spacing: 0.44px;
+}
+
+.header__contacts {
+  justify-content: space-between;
+  width: 27%;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  margin-top: 3px;
+  margin-left: 2.1vw;
+}
+
+.icon_teleg {
+  background-image: url('../../image/icon_telegram.svg');
+}
+
+.icon_viber {
+  background-image: url('../../image/icon_viber.svg');
+}
+
+.icon_whatsapp {
+  background-image: url('../../image/icon_whatsapp.svg');
+  margin-top: 2px;
+}
+
+.header__phone {
+  margin: 4px 3px 0 0;
+}
+
+@media screen and (max-width: 1345px) {
+  .header__contacts {
+    flex-direction: column;
+    align-items: end;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .header__contacts {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__contacts {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .header__logo {
+    display: flex;
+  }
+
+  .header-list {
+    margin: 4px 52px;
+    margin: 4px 3.6vw;
+  }
+
+  .header-list_item {
+    margin-right: 31px;
+    margin-right: 2.16vw;
+  }
+  .header__menu {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hidden,
+  .header__logo {
+    display: none;
+  }
+
+  .header__menu {
+    width: 100%;
+  }
+
+  .header-list {
+    font-size: 13px;
+    margin: 18px 0;
+    width: 100%;
+  }
+
+  .header-list_item {
+    text-transform: uppercase;
+    margin-right: 34px;
+    margin: 0;
+    letter-spacing: -0.4px;
+  }
+}
