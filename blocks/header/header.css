@@ -112,6 +112,10 @@
 }
 
 @media screen and (max-width: 768px) {
+.header {
+  padding: 0 5vw;
+}
+
   .hidden,
   .header__logo {
     display: none;
