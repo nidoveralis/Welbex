@@ -3,3 +3,110 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/main/main.css');
+
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 315px;
+}
+
+.footen_navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__subtitle {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 8px 0 22px 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.footer__info .footer__subtitle{
+  margin-bottom: 13px;
+}
+
+.footer .phone {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.footer .icon-list {
+  justify-content: right;
+}
+
+.icon_footer {
+  margin-left: 0.8vw;
+}
+
+.footer__list {
+  list-style-type: none;
+  color: rgba(101, 101, 102, 1);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__menu {
+  width: 462px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 204px;
+  margin-left: 99px;
+}
+
+.footer__item {
+  margin-bottom: 12px;
+}
+
+.footer__link {
+  color: rgba(228, 229, 234, 1);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.item-top {
+  margin-top: 48px;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  height: 100%;
+}
+
+.footer__adres {
+  margin: 19px 0 0;
+}
+
+.footer__protection {
+  margin-bottom: 11px;
+  margin-top: 5vw;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  height: 34px;
+  text-align: right;
+}
+
+.footer__copyright {
+  margin: 0;
+  margin-bottom: 6px;
+  letter-spacing: 0.04em;
+}
+
+.footer__politic {
+  color: rgba(228, 229, 234, 1);
+  letter-spacing: 0.05em;
+}

@@ -49,12 +49,11 @@
 }
 
 .intro__item {
-  max-width: 141px;
+  max-width: 136px;
   text-align: right;
 }
 
 .intro__subtittle {
-  font-size: clamp(13px, 1vw, 18px);
   letter-spacing: 0.05em;
   margin: 0;
   text-transform: uppercase;
@@ -79,6 +78,7 @@
   .content {
     flex-direction: row;
     margin-top: 85px;
+    margin-bottom: 60px;
   }
 
   .lead__title {
@@ -95,6 +95,7 @@
 
   .intro__subtittle {
     font-weight: 500;
+    font-size: 18px;
   }
 
   .intro {
@@ -121,6 +122,19 @@
   
   .intro__item {
     margin-bottom: 33px;
+  }
+}
+
+@media screen and (min-width: 806px) {
+  .screen-small {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .intro__text,
+  .screen-large {
+    display: none;
   }
 }
 
@@ -170,6 +184,7 @@
     position: relative;
     padding-left: 15px;
     font-weight: 400;
+    font-size: 13px;
   }
 
   .intro__subtittle::before {

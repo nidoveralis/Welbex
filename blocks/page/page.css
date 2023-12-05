@@ -9,6 +9,7 @@
 @media screen and (min-width: 1346px) {
   .page {
     margin: 57px 10.3vw;
+    margin-bottom: 0;
   }
 }
 

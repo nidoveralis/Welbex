@@ -35,7 +35,7 @@
   letter-spacing: 0.44px;
 }
 
-.header__contacts {
+.contacts {
   justify-content: space-between;
   width: 27%;
 }
@@ -69,25 +69,26 @@
   margin-top: 2px;
 }
 
-.header__phone {
+.phone {
+  text-wrap: nowrap;
   margin: 4px 3px 0 0;
 }
 
 @media screen and (max-width: 1345px) {
-  .header__contacts {
+  .contacts {
     flex-direction: column;
     align-items: end;
   }
 }
 
 @media screen and (min-width: 1025px) {
-  .header__contacts {
+  .contacts {
     display: flex;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .header__contacts {
+  .contacts {
     display: none;
   }
 }
