@@ -23,5 +23,6 @@
   .page {
     margin: 0 5vw;
     margin: 0;
+    max-height: 1115px;
   }
 }
