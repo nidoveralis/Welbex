@@ -1,0 +1,271 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+.footer__navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__subtitle {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.footer .phone {
+  text-align: right;
+}
+
+.footer__list {
+  list-style-type: none;
+  color: rgba(101, 101, 102, 1);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 170px;
+}
+
+.footer__link {
+  color: rgba(228, 229, 234, 1);
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  height: 100%;
+}
+
+.footer__protection {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  height: 34px;
+}
+
+.footer__copyright {
+  margin: 0;
+  margin-bottom: 6px;
+  letter-spacing: 0.04em;
+}
+
+.footer__politic {
+  color: rgba(228, 229, 234, 1);
+  letter-spacing: 0.05em;
+}
+
+@media screen and (min-width: 1036px) {
+  .footer {
+    align-items: center;
+  }
+
+  .icon_footer {
+    margin-left: 0.8vw;
+  }
+
+  .footer__item_small {
+    display: none;
+  }
+
+  .footer__conteiner-menu {
+    width: 59%;
+  }
+
+  .footer__subtitle {
+    margin: 0px 0 22px 0;
+    font-size: 14px;
+  }
+
+  
+  .footer__subtitle_contact {
+    margin-bottom: 13px;
+    margin-top: 66px;
+  }
+
+  .footer__protection {
+    margin-bottom: 11px;
+    margin-top: 5vw;
+    text-align: right;
+  }
+
+  .footer .phone {
+    margin-bottom: 20px;
+  }
+
+  .footer .icon-list {
+    justify-content: right;
+  }
+
+  .footer__menu {
+    column-gap: 3.6vw;
+  }
+  
+  .footer__item {
+    margin-bottom: 12px;
+  }
+
+  .footer__link {
+    font-size: 16px;
+  }
+
+  .footer__adres {
+    margin: 19px 0 0;
+    text-align: end;
+  }
+
+  .footer__info {
+    width: 21vw;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .footer__navigation {
+    width: 62%;
+  }
+}
+
+@media screen and (max-width: 1035px) {
+  .footer {
+    margin-top: 20px;
+    margin-left: 5vw;
+    align-items: flex-start;
+    column-gap: 20px;
+  }
+
+  .footer__navigation {
+    display: flex;
+    align-self: flex-start;
+    /*margin-left: 5vw;
+    margin-right: 5vw;*/
+    gap: 20px;
+    width: 72%;
+  }
+
+  .footer__menu {
+    max-height: 117px;
+    column-gap: 24px;
+  }
+
+  .footer__info {
+    align-items: start;
+    align-self: flex-start;
+    /*margin-left: 5vw;*/
+  }
+
+  .footer__adres {
+    text-align: left;
+  }
+
+  .footer__protection {
+    text-align: left;
+    margin-bottom: 9vw;
+  }
+
+  .footer .icon-list {
+    justify-content: start;
+  }
+
+  .icon_footer {
+    width: 24px;
+    height: 24px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 9px;
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__navigation {
+    width: 72%;
+    justify-content: flex-start;
+    column-gap: 5vw;
+  }
+
+  .footer__menu {
+    max-height: 160px;
+    max-width: 90vw;
+    margin-left: 0;
+    column-gap: 24px;
+  }
+
+  .footer__subtitle {
+    font-size: 12px;
+    margin: 22px 0 21px 0;
+  }
+
+  .footer__item {
+    margin-bottom: 10px;
+  }
+
+  .footer__link {
+    font-size: 14px;
+  }
+
+  .footer__item_large {
+    display: none;
+  }
+
+  .item-top {
+    margin-top: 0;
+  }
+
+  .footer__subtitle_contact {
+    margin-top: 19px;
+    margin-bottom: 16px;
+  }
+
+  .footer .phone {
+    margin-bottom: 8px;
+  }
+
+  .footer__adres {
+    letter-spacing: -1.1px;
+    margin: 11px 0 5vw -2px;
+  }
+
+  .footer__protection {
+    text-align: left;
+    margin-bottom: 9vw;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .footer__navigation {
+    flex-direction: column;
+  }
+  
+  .footer__menu .footer__item {
+    max-width: 123px;
+  }
+
+  .footer__adres {
+    margin: 11px 0 0 -2px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__navigation {
+    row-gap: 0;
+  }
+
+  .footer__protection {
+    margin-top: 15vw;
+    margin-bottom: 19vw;
+  }
+}
